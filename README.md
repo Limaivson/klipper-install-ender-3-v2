@@ -1,4 +1,14 @@
-# klipper-install-ender-3-v2
+# klipper ender 3 v2
+
+### Por que instalar o klipper?
+ - ### Diferença entre o marlin e o klipper:
+    #### Marlin: 
+    - É um firmware que roda diretamente na placa da impressora 3D. Ele processa todos os cálculos de movimentação, controle de temperatura e outros comandos na própria placa, o que pode limitar a velocidade e a precisão, especialmente em impressoras com hardwares mais básicos.
+    #### Klipper: 
+    - Funciona de forma diferente, rodando a maior parte dos cálculos em um computador externo (geralmente um Raspberry Pi), que envia comandos pré-processados para a placa da impressora. Isso permite que a impressora execute movimentos de forma mais rápida e precisa, uma vez que a carga de processamento é distribuída.
+
+    ### Em resumo:
+    - O klipper é mais rápido e preciso que o marlin, além de permitir várias outras funcionalidades como por exemplo o controle via wifi, o que facilita a configuração e o monitoramento da impressora.
 
 ### Material necessário:
  - Raspberry pi Zero 2 W ou superior;
