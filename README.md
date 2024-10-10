@@ -55,4 +55,6 @@
         
         Após acabar o build do firmware tecle ctrl + c para sair do kiauh, o arquivo "klipper/out/klipper.bin" será gerado, copie este arquivo para o cartão SD e com a impressora desligada insira o cartão SD após inserir ligue a impressora e espere 30 segundos para que o firmware seja carregado.
 
- - Após o firmware ser carregado, a impressora estará pronta para ser utilizada, para configurar o klipper acesse o arquivo "klipper/config/printer.cfg" e copie a configuração deste arquivo: Com bltouch: [printer.cfg](printer.cfg). Sem bltouch: []().
+ - Após o firmware ser carregado, a impressora estará pronta para ser utilizada, para configurar o klipper acesse o arquivo "klipper/config/printer.cfg" e copie a configuração deste arquivo: 
+    - Com bltouch: [printerWithBltouch.cfg](printerWithBltouch.cfg).
+    - Sem bltouch: [printer.cfg](printer.cfg).
